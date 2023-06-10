@@ -1,3 +1,4 @@
+"use client";
 import { useRouter } from "next/router";
 import { Navbar } from "@nextui-org/react";
 import React from "react";
