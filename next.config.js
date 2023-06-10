@@ -4,8 +4,8 @@ const nextConfig = {
   output: "export",
   reactStrictMode: true,
   swcMinify: true,
-  assetPrefix: "aarambh-residency",
-  basePath: "aarambh-residency",
+  assetPrefix: "",
+  basePath: "",
 };
 
 module.exports = nextConfig;

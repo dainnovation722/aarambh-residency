@@ -6,17 +6,16 @@ import { useTheme as useNextTheme } from "next-themes";
 import { useTheme } from "@nextui-org/react";
 
 export const Nav = () => {
-  const repo = "aarambh-residency";
   const router = useRouter();
   const { setTheme } = useNextTheme();
   const { isDark, type } = useTheme();
   const navigation = [
-    { title: "Homepage", link: `/` },
-    { title: "Hotel", link: `/${repo}/hotel` },
-    { title: "Project", link: `/${repo}/project` },
-    { title: "Acitivities", link: `/${repo}/activity` },
-    { title: "Involved", link: `/${repo}/involved` },
-    { title: "Contact", link: `/${repo}/contact` },
+    { title: "Homepage", link: "/home" },
+    { title: "Hotel", link: "/hotel" },
+    { title: "Project", link: "/project" },
+    { title: "Acitivities", link: "/activity" },
+    { title: "Involved", link: "/involved" },
+    { title: "Contact", link: "/contact" },
   ];
   return (
     <Navbar isBordered variant="sticky">
