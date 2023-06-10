@@ -29,8 +29,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     environment: github-pages
-    env:
-      BASE_PATH: ${{ vars.BASE_PATH }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
