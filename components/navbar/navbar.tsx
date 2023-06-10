@@ -10,7 +10,7 @@ export const Nav = () => {
   const { setTheme } = useNextTheme();
   const { isDark, type } = useTheme();
   const navigation = [
-    { title: "Homepage", link: "/" },
+    { title: "Homepage", link: "/home" },
     { title: "Hotel", link: "/hotel" },
     { title: "Project", link: "/project" },
     { title: "Acitivities", link: "/activity" },
