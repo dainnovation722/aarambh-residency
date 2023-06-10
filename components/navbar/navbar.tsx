@@ -7,9 +7,9 @@ import { useTheme } from "@nextui-org/react";
 
 export const Nav = () => {
   const router = useRouter();
-  const { isDark, type } = useTheme();
+
   const navigation = [
-    { title: "Homepage", link: "/home" },
+    { title: "Homepage", link: "/" },
     { title: "Hotel", link: "/hotel" },
     { title: "Project", link: "/project" },
     { title: "Acitivities", link: "/activity" },
