@@ -11,7 +11,7 @@ export const Nav = () => {
   const { setTheme } = useNextTheme();
   const { isDark, type } = useTheme();
   const navigation = [
-    { title: "Homepage", link: `/${repo}/home` },
+    { title: "Homepage", link: `/` },
     { title: "Hotel", link: `/${repo}/hotel` },
     { title: "Project", link: `/${repo}/project` },
     { title: "Acitivities", link: `/${repo}/activity` },
