@@ -7,7 +7,6 @@ import { useTheme } from "@nextui-org/react";
 
 export const Nav = () => {
   const router = useRouter();
-  const { setTheme } = useNextTheme();
   const { isDark, type } = useTheme();
   const navigation = [
     { title: "Homepage", link: "/home" },
